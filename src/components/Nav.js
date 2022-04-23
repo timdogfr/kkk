@@ -19,14 +19,7 @@ function Nav() {
                 spacing={0}
                 align="center"
                 justify='space-evenly'
-                direction={["column", "column", "column", "row"]}
-            >
-                <MenuItems />
-                <Spacer />
-                <Image src={logo} w={["380px", "380px", "300px", "300px"]} />
-                <Spacer />
-                <NavIcons />
-
+                direction={["column", "column", "column", "row"]}            
             </Stack>
         </Box >
     )
