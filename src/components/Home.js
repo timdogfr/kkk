@@ -5,7 +5,7 @@ import banner from '../images/banner.jpg'
 function Home({ children }) {
     return (
         <>
-            <Box h="100vh" bgImage={banner} bgPos="center" borderColor="accent" borderBottomWidth="6px">
+            <Box h="21vh" bgImage={banner} bgPos="center" borderColor="accent" borderBottomWidth="6px">
                 {children}
                 {/* <Box
                     position="absolute"
